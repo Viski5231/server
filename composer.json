@@ -1,0 +1,28 @@
+{
+    "name": "viski5231/server",
+    "description": "Simple mvc framework",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "viski5231",
+            "email": "artemagodin135@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": "^7.4 | ^8.0",
+        "illuminate/database": "10.x-dev",
+        "illuminate/events": "10.x-dev",
+        "nikic/fast-route": "2.0.x-dev"
+    },
+    "autoload": {
+        "psr-4": {
+            "Src\\": "core/Src/",
+            "App\\": "app/",
+            "Model\\": "app/Model/",
+            "Middlewares\\": "app/Middlewares/",
+            "Controller\\": "app/Controller"
+        }
+    }
+}
