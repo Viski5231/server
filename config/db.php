@@ -1,5 +1,6 @@
 <?php
 return [
+// home
     'driver' => 'mysql',
     'host' => 'localhost',
     'database' => 'server',
@@ -7,11 +8,12 @@ return [
     'password' => '',
     'charset' => 'utf8',
 
+// teh
 //    'driver' => 'mysql',
 //    'host' => 'localhost',
-//    'database' => 'mrmyergb_m1',
-//    'username' => 'mrmyergb',
-//    'password' => 'AeZHjA',
+//    'database' => 'tehdb_m1',   // data change
+//    'username' => 'tehdb',   // data change
+//    'password' => 'password',   // data change
 //    'charset' => 'utf8',
 //    'collation' => 'utf8_unicode_ci',
 //    'prefix' => '',
