@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "58b7c37580bdd07a9f0c947abec14805",
+    "content-hash": "f92fc5de889c2fc6e3cdc5df7fd74da0",
     "packages": [
         {
             "name": "brick/math",
@@ -1578,6 +1578,47 @@
             "time": "2025-07-15T13:41:35+00:00"
         },
         {
+            "name": "viski5231/validator",
+            "version": "dev-main",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Viski5231/validator.git",
+                "reference": "abcd2397c206ed5afd3db8f36025630b8301c235"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Viski5231/validator/zipball/abcd2397c206ed5afd3db8f36025630b8301c235",
+                "reference": "abcd2397c206ed5afd3db8f36025630b8301c235",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.4 | ^8.0"
+            },
+            "default-branch": true,
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Validators\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "viski5231",
+                    "email": "artemagodin135@gmail.com"
+                }
+            ],
+            "description": "A simple validation library",
+            "support": {
+                "issues": "https://github.com/Viski5231/validator/issues",
+                "source": "https://github.com/Viski5231/validator/tree/main"
+            },
+            "time": "2026-01-14T08:46:13+00:00"
+        },
+        {
             "name": "voku/portable-ascii",
             "version": "2.0.3",
             "source": {
@@ -1659,6 +1700,7 @@
         "illuminate/database": 20,
         "illuminate/events": 20,
         "nikic/fast-route": 20,
+        "viski5231/validator": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,
